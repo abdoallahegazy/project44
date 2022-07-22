@@ -58,7 +58,7 @@ $book =selectwhere($con , "books" , $id)[0];
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12 ml-6 my-6">
+                                <div class="col-md-12 ml-6 my-6">e
                                 <form action="/controllers/books/update.php" method="POST" enctype= "multipart/form-data">
 
                                     <input type="hidden" name="id" value="<?=$book['id']?>"">
