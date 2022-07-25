@@ -29,12 +29,12 @@
 
             <li class="nav-item d-none d-sm-inline-block">
     
-                <a href="/controllers/rej/rej.php" class="nav-link text-info">sign up</a>
+                <a href="/controllers/rej/signup.php" class="nav-link text-info">sign up</a>
 
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
     
-                    <a href="/controllers/auth/logout.php" class="nav-link text-danger">logout</a>
+                    <a href="/controllers/auth/logout.php" class="nav-link text-danger">log out</a>
 
                 </li>
                 <li class="nav-item dropdown language-dropdown">
