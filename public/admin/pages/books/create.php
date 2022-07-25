@@ -136,4 +136,4 @@ $users = select($con , "users");
 
     <?php include layouts("footer.php")  ?>
 
-    <?php session_destroy() ?>
+    <?php unset($_SESSION['erorr'] , $_SESSION['su']) ?>

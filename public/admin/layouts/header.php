@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['admin'])){
+
+header('location:/public/admin/auth/login.php');
+
+
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 

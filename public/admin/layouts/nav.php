@@ -10,6 +10,7 @@
                 <li class="nav-item theme-text">
                     <a href="index-2.html" class="nav-link"> CORK </a>
                 </li>
+
             </ul>
 
             <ul class="navbar-item flex-row ml-md-0 ml-auto">
@@ -21,10 +22,21 @@
                         </div>
                     </form>
                 </li>
+                 
             </ul>
 
             <ul class="navbar-item flex-row ml-md-auto">
 
+            <li class="nav-item d-none d-sm-inline-block">
+    
+                <a href="/controllers/rej/rej.php" class="nav-link text-info">sign up</a>
+
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+    
+                    <a href="/controllers/auth/logout.php" class="nav-link text-danger">logout</a>
+
+                </li>
                 <li class="nav-item dropdown language-dropdown">
                     <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="<?=asset('assets/img/ca.png')?>" class="flag-width" alt="flag">

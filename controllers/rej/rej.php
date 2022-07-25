@@ -9,7 +9,8 @@ $z = inserttoimage($con , "users" ,$_POST , image() , "image");
 if(image() == false){
 
     $_SESSION['erorr']['image'] = "into azma";
-    header("location:/public/admin/rej/rej.php");
+    header('location:/public/admin/auth/login.php');
+
 
 }else{
 

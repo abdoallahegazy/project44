@@ -145,3 +145,5 @@ $books = mysqli_fetch_all($a , 1);
 
 
     <?php include layouts("footer.php")  ?>
+
+    <?php unset($_SESSION['erorr'] , $_SESSION['su']) ?>

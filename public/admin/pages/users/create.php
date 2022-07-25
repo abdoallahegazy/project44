@@ -120,4 +120,4 @@ include $_SERVER['DOCUMENT_ROOT'] . "./function/DBfunc.php";
 
     <?php include layouts("footer.php")  ?>
 
-    <?php session_destroy() ?>
+    <?php unset($_SESSION['erorr'] , $_SESSION['su']) ?>

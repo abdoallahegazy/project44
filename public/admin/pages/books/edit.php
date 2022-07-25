@@ -166,4 +166,4 @@ $book =selectwhere($con , "books" , $id)[0];
 
     <?php include layouts("footer.php")  ?>
 
-    <?php session_destroy() ?>
+    <?php unset($_SESSION['erorr'] , $_SESSION['su']) ?>
