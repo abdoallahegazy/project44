@@ -37,6 +37,11 @@
                     <a href="/controllers/auth/logout.php" class="nav-link text-danger">log out</a>
 
                 </li>
+                <li class="nav-item d-none d-sm-inline-block">
+    
+                    <a href="/public/site/index.php" class="nav-link text-dark">site</a>
+
+                </li>
                 <li class="nav-item dropdown language-dropdown">
                     <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="<?=asset('assets/img/ca.png')?>" class="flag-width" alt="flag">

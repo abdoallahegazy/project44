@@ -32,7 +32,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "./function/frontfunc.php";
                 <div class="form-container">
                     <div class="form-content">
 
-                        <h1 class="">Sign In</h1>                        
+                        <h1 class="">users</h1>                        
                         <form action="/controllers/auth/login.php" method="POST" >
                             <div class="form">
 
